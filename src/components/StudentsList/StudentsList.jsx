@@ -3,8 +3,7 @@ function StudentsList() {
     return (
         <ul>
             {students.map((student) => {
-                if (student === 'Sayed Hamed') return null;
-                return <li key={student}>{student}</li>;
+                return student !== 'Sayed Hamed' ? <li key={student}>{student}</li> : null;
             })}
         </ul>
     );
