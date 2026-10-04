@@ -1,0 +1,15 @@
+p{
+    color: blue;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid black;
+    width: fit-content;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+p:hover {
+    color: rgb(1, 6, 33);
+    cursor: pointer;
+}
